@@ -16,7 +16,8 @@ const app = express();
 const corsOptions = {
   origin: [
     'http://localhost:5173',
-    'https://brilliant-hummingbird-8bcca4.netlify.app'
+    'https://brilliant-hummingbird-8bcca4.netlify.app',
+    'https://cool-seahorse-723408.netlify.app'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
