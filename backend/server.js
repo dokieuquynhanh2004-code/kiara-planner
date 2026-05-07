@@ -13,24 +13,18 @@ const errorHandler    = require('./middleware/errorHandler');
 
 const app = express();
 
-const ALLOWED_ORIGINS = [
-  'http://localhost:5173',
-  'https://brilliant-hummingbird-8bcca4.netlify.app',
-  process.env.CLIENT_URL,
-].filter(Boolean);
-
-app.use(cors({
-  origin: (origin, callback) => {
-    if (!origin || ALLOWED_ORIGINS.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error(`CORS: origin ${origin} not allowed`));
-    }
-  },
-  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
+const corsOptions = {
+  origin: [
+    'http://localhost:5173',
+    'https://brilliant-hummingbird-8bcca4.netlify.app'
+  ],
   credentials: true,
-}));
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+};
+
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions));
 app.use(express.json());
 
 app.use('/api/auth',      authRouter);
