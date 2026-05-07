@@ -1,0 +1,8 @@
+node_modules/
+.env
+backend/db/kiara.db
+backend/db/kiara.db-shm
+backend/db/kiara.db-wal
+dist/
+.DS_Store
+*.log
