@@ -4,12 +4,13 @@
   "description": "Kiara Planner - Social Media Content Planner",
   "main": "backend/server.js",
   "scripts": {
-    "start": "bun backend/server.js",
+    "start": "node backend/server.js",
     "dev": "bun backend/server.js",
     "seed": "bun backend/db/seed.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^9.4.3",
     "concurrently": "^8.2.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: kiara-planner-api
+    env: node
+    buildCommand: npm install
+    startCommand: node backend/server.js
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production
+      - key: CLIENT_URL
+        value: https://your-netlify-url.netlify.app
+      - key: DB_PATH
+        value: ./backend/db/kiara.db

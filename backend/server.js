@@ -17,6 +17,14 @@ const app = express();
 const schema = fs.readFileSync(path.join(__dirname, 'db', 'schema.sql'), 'utf8');
 db.exec(schema);
 
+// Auto-seed if database is empty (handles Render ephemeral filesystem)
+const { count } = db.prepare('SELECT COUNT(*) as count FROM users').get();
+if (count === 0) {
+  console.log('Empty database detected — seeding demo data...');
+  require('./db/seed');
+  console.log('Seed complete.');
+}
+
 app.use(cors({
   origin: process.env.CLIENT_URL || 'http://localhost:5173',
   credentials: true
