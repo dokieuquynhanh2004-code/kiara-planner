@@ -10,6 +10,6 @@ services:
       - key: NODE_ENV
         value: production
       - key: CLIENT_URL
-        value: https://your-netlify-url.netlify.app
+        value: https://brilliant-hummingbird-8bcca4.netlify.app
       - key: DB_PATH
         value: ./backend/db/kiara.db
