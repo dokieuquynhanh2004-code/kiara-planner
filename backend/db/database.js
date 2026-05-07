@@ -18,9 +18,13 @@ function normalizeParams(params) {
 }
 
 function createWrapper(sqlDb) {
+  let inTransaction = false;
+
   function save() {
-    const data = sqlDb.export();
-    fs.writeFileSync(dbPath, Buffer.from(data));
+    if (!inTransaction) {
+      const data = sqlDb.export();
+      fs.writeFileSync(dbPath, Buffer.from(data));
+    }
   }
 
   return {
@@ -78,13 +82,33 @@ function createWrapper(sqlDb) {
           return { changes, lastInsertRowid };
         }
       };
+    },
+
+    // Mirrors better-sqlite3: db.transaction(fn) returns a function; call it to run fn in a transaction.
+    // save() is skipped during the transaction and called once after COMMIT.
+    transaction(fn) {
+      return (...args) => {
+        sqlDb.run('BEGIN');
+        inTransaction = true;
+        try {
+          const result = fn(...args);
+          sqlDb.run('COMMIT');
+          inTransaction = false;
+          save();
+          return result;
+        } catch (err) {
+          sqlDb.run('ROLLBACK');
+          inTransaction = false;
+          throw err;
+        }
+      };
     }
   };
 }
 
 // Exported as a plain object — populated after init() is called.
-// Route files hold a reference to this same object, so they see
-// the methods once server.js calls await db.init() at startup.
+// All route files hold a reference to this object, so they see the
+// methods once server.js calls await db.init() at startup.
 const db = {};
 
 db.init = async function () {
