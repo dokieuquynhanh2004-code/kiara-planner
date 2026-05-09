@@ -6,3 +6,5 @@ backend/db/kiara.db-wal
 dist/
 .DS_Store
 *.log
+__pycache__/
+skills/*/output/
