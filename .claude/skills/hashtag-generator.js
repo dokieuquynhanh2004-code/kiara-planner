@@ -10,7 +10,7 @@
  */
 
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-const MODEL = 'llama3-8b-8192';
+const MODEL = 'llama-3.1-8b-instant';
 
 const FALLBACK_HASHTAGS = [
   '#productivity', '#plannerlife', '#KiaraPlanner', '#goalsetting',

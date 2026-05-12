@@ -1,0 +1,32 @@
+﻿# caption-batch-generator — Live API Output
+Generated: 2026-05-12 22:47:13
+Model: llama-3.1-8b-instant (Groq API)
+Platform: Instagram
+Topics: Monday motivation, Productivity tips, New feature announcement, Behind the scenes, Study planning
+
+## Results
+--- Caption 1 [Instagram] ---
+New week, fresh start 🌞 Don't let Monday blues get you down! Kickstart your week with Kiara Planner
+[Tone: friendly] [100 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 2 [Instagram] ---
+Boost your productivity: set clear goals, prioritize tasks, and take breaks. Get organized with Kiara Planner
+[Tone: inspirational] [109 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 3 [Instagram] ---
+Exciting update! We've added a new calendar view to Kiara Planner. Stay on top of your schedule like never before
+[Tone: modern] [113 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 4 [Instagram] ---
+Ever wondered how Kiara Planner was made? Take a sneak peek into our design process and behind-the-scenes
+[Tone: friendly] [105 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 5 [Instagram] ---
+Ace your exams with a solid study plan. Use Kiara Planner to schedule, prioritize, and stay focused on your goals
+[Tone: motivational] [113 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
