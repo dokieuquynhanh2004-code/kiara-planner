@@ -1,0 +1,60 @@
+# content-creator agent — June 2026 Marketing Campaign
+Generated: 2026-05-12T00:00:00Z
+Agent: content-creator | Skills: caption-batch-generator, hashtag-generator
+Model: llama-3.1-8b-instant (Groq API)
+
+## SKILL 1: caption-batch-generator
+
+--- Caption 1 [Instagram] ---
+Reflecting on your journey so far 👀
+[Tone: motivational] [36 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 2 [Instagram] ---
+Stay focused, stay cool: top 3 productivity hacks for summer
+[Tone: friendly] [60 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 3 [Instagram] ---
+Plan your content, crush your goals
+[Tone: modern] [35 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 4 [Instagram] ---
+Take a deep breath, it's time to refresh
+[Tone: motivational] [40 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 5 [Instagram] ---
+Don't let the summer heat slow you down
+[Tone: friendly] [39 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 6 [Instagram] ---
+Set yourself up for Q3 victory with Kiara Planner
+[Tone: motivational] [49 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 7 [Instagram] ---
+Stay on track and keep your social media game strong
+[Tone: modern] [52 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+--- Caption 8 [Instagram] ---
+New features, new you: Kiara Planner June update
+[Tone: friendly] [48 chars] [model: llama-3.1-8b-instant]
+[Hashtags: [run hashtag-generator.js to fill]]
+
+## SKILL 2: hashtag-generator
+
+### Caption 1: Mid-year goal review
+Caption: "Reflecting on your journey so far 👀"
+#journeysofar #selfdiscovery #kiaraplanner #mindfulliving #traveljournal #kiaraapp #gratitudepractice #personalgrowth #wanderlustvibes #selfcarejourney
+
+### Caption 2: June content planning
+Caption: "Plan your content, crush your goals"
+#contentstrategy #crushyourgoals #kiaraplanner #contentcalendar #socialmedia #productivityhacks #kiaraapp #plannertips #contentmarketing #goalsetting
+
+### Caption 3: Planning for Q3 success
+Caption: "Set yourself up for Q3 victory with Kiara Planner"
+#kiaraplanner #productivityhacks #successmindset #kiaraapp #plannergoals #productivitytools #goalsettingtips #planneraddict #organizationtips #planningforvictory

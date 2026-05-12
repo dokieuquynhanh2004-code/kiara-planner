@@ -1,0 +1,96 @@
+# data-analyst agent — June 2026 Marketing Campaign
+Generated: 2026-05-12T23:00:00Z
+Agent: data-analyst | Skills: trend-tracker, performance-reporter
+Data source: data/posts-export.json (30 posts, May–June 2026)
+
+API Status: OFFLINE (Render free tier sleeping — sample dataset used for analysis)
+
+## SKILL 1: trend-tracker
+
+## Trend Tracker — Last 30 days
+
+Posts analyzed: 30 (current) vs 0 (previous window)
+
+| Rank | Hashtag               | Now | Prev | Growth   |
+|------|-----------------------|-----|------|----------|
+| 1    | #productivity          | 4   | 0    | +100% |
+| 2    | #planning              | 5   | 0    | +100% |
+| 3    | #contentcreator        | 5   | 0    | +100% |
+| 4    | #tips                  | 3   | 0    | +100% |
+| 5    | #socialmedia           | 3   | 0    | +100% |
+| 6    | #behindthescenes       | 6   | 0    | +100% |
+| 7    | #contentteam           | 5   | 0    | +100% |
+| 8    | #newfeature            | 4   | 0    | +100% |
+| 9    | #update                | 4   | 0    | +100% |
+| 10   | #kiaraplanner          | 5   | 0    | +100% |
+
+**Rising (>20% growth):** #productivity, #planning, #contentcreator, #tips, #socialmedia, #behindthescenes, #contentteam, #newfeature, #update, #kiaraplanner
+
+Note: All hashtags show +100% growth because the previous 30-day window (mid-March to mid-April 2026)
+has no data in this dataset. All 30 posts fall within the current window (mid-April to mid-May 2026).
+The most-used hashtag is #behindthescenes (6 posts), followed by #planning, #contentcreator,
+#contentteam, and #kiaraplanner (5 each).
+
+## SKILL 2: performance-reporter
+
+## Kiara Planner — Performance Report (month)
+==================================================
+
+### TL;DR
+30 posts published. Avg engagement rate 10.10% (+100% vs last month).
+
+### Summary Snapshot
+| Metric              | This month | Last month | Change  |
+|---------------------|------------|------------|---------|
+| Total Posts         | 30         | 0          | +100%   |
+| Avg Engagement Rate | 10.10%     | 0.00%      | +100%   |
+| Total Reach         | 82780      | 0          | +100%   |
+| Top Post Likes      | 345        | 0          | +100%   |
+
+### Top 5 Posts (by engagement rate)
+1. "How one student creator grew to 10k followers in 90 days usi..." — 11.4% ER, 345 likes, reach 3950
+2. "June feature drop: AI-assisted caption suggestions are now i..." — 11.3% ER, 347 likes, reach 4000
+3. "3 reasons why your Instagram reach is dropping (and how to f..." — 10.8% ER, 334 likes, reach 3950
+4. "How to write a 30-day content calendar in under an hour. Ste..." — 10.6% ER, 322 likes, reach 3900
+5. "Every big account started with zero followers. Keep showing ..." — 10.6% ER, 265 likes, reach 2900
+
+### Posting Pattern
+- Best performing day: **Wednesday** (avg ER 10.6%)
+- Posts this month: 30 (avg 7.5/week)
+
+### Content Type Breakdown
+| Type          | Count | Avg ER |
+|---------------|-------|--------|
+| Motivational  | 9     | 10.0%  |
+| Tips/How-to   | 10    | 10.4%  |
+| Behind scenes | 6     | 9.8%   |
+| Feature promo | 5     | 10.0%  |
+
+### Recommendations (from performance-reporter)
+1. Post more **Tips/How-to** content — highest avg ER at 10.4%
+2. Concentrate posting on **Wednesday** (best day) and test 8–9 AM window
+3. Reduce or refresh **Behind scenes** posts — lowest ER at 9.8%
+4. Aim for consistent posts per week to maintain reach
+5. A/B test hook-first captions vs question-based openers this week
+
+## June 2026 Recommendations
+
+- Double down on Tips/How-to content for June: this format drives the highest average engagement
+  rate (10.4%) and dominates the top-5 posts list (4 of 5 top posts are tips/how-to or
+  student-growth stories). Plan at least 2 educational posts per week throughout June.
+
+- Anchor the weekly schedule to Wednesday 8–9 AM: Wednesday is the best-performing day
+  (avg ER 10.6%). Pair this with Monday and Friday posts to maintain the Mon/Wed/Fri cadence
+  already present in the data and keep the algorithm feed active.
+
+- Lean into the #junemarketing and #contentplanning hashtag cluster for June: these tags already
+  appear on high-reach posts (3,300–3,950 reach). Combine them with evergreen tags like
+  #productivity and #creators to blend discovery with loyal-audience engagement.
+
+- Time the AI caption beta announcement (Feature promo) for the first week of June: the June
+  feature drop post already achieved the highest raw likes (347) and second-highest ER (11.3%).
+  Feature launches perform best when posted Mon/Wed and paired with a tips follow-up 2 days later.
+
+- Refresh or reduce Behind-the-scenes posts from 6 down to 3 in June: BTS has the lowest
+  avg ER (9.8%) and lowest reach ceiling (~1,500). When used, tie BTS content to a product
+  milestone (e.g., "day before launch") to give it a narrative hook that lifts engagement.
